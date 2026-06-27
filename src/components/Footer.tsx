@@ -22,8 +22,8 @@ export function Footer({ onHome }: { onHome: boolean }) {
 
   return (
     <footer className="relative overflow-hidden border-t border-ink/10 bg-cream-200 text-ink/70">
-      <div className="u-container relative pt-20 pb-10">
-        <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr]">
+      <div className="u-container relative pt-12 pb-8 md:pt-20 md:pb-10">
+        <div className="grid gap-8 md:gap-12 md:grid-cols-[1.4fr_1fr_1fr]">
           {/* brand */}
           <div>
             <div className="flex items-center gap-3">
@@ -59,8 +59,8 @@ export function Footer({ onHome }: { onHome: boolean }) {
 
           {/* explore */}
           <div>
-            <p className="eyebrow mb-5 text-terracotta">Explore</p>
-            <ul className="space-y-3">
+            <p className="eyebrow mb-4 md:mb-5 text-terracotta">Explore</p>
+            <ul className="grid grid-cols-2 gap-x-8 gap-y-2.5 md:grid-cols-1 md:gap-y-3">
               {nav.map((item) => (
                 <li key={item.label}>
                   <button onClick={() => go(item.href)} className="link-underline text-[0.95rem] text-ink/70 hover:text-ink">
@@ -90,7 +90,7 @@ export function Footer({ onHome }: { onHome: boolean }) {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col items-start justify-between gap-3 border-t border-ink/12 pt-7 text-[0.8rem] text-ink/55 md:flex-row md:items-center">
+        <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-ink/12 pt-6 text-[0.8rem] text-ink/55 md:mt-16 md:flex-row md:items-center md:pt-7">
           <p>© {new Date().getFullYear()} Lou Projects · Sustainable home builders, Central Coast NSW</p>
           <p>
             Website by{' '}

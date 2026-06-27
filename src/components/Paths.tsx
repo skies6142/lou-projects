@@ -26,26 +26,26 @@ export function Paths() {
             <Reveal key={p.key} delay={i * 0.08}>
               <button
                 onClick={() => go(p.cta.href)}
-                className="group relative block w-full overflow-hidden rounded-[4px] text-left"
+                className="group block w-full text-left"
               >
-                <div className="aspect-[4/3] w-full overflow-hidden md:aspect-[5/4]">
+                <div className="aspect-[4/3] w-full overflow-hidden rounded-[4px] md:aspect-[16/11]">
                   <img
                     src={PATH_IMG[p.key]}
-                    alt=""
+                    alt={p.title}
                     className="h-full w-full object-cover transition-transform duration-[1100ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
                   />
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-olive-deep/90 via-olive-deep/35 to-olive-deep/10" />
-                <div className="absolute inset-0 flex flex-col justify-end p-7 md:p-9">
-                  <span className="font-serif text-base text-terracotta-400">{p.index}</span>
-                  <h3 className="mt-1 flex items-center gap-2 font-serif text-[clamp(1.7rem,3vw,2.4rem)] font-light text-cream-50">
+                {/* text below the image — readable on cream, not over the photo */}
+                <div className="mt-5">
+                  <span className="font-serif text-sm text-terracotta">{p.index}</span>
+                  <h3 className="mt-1 flex items-center gap-2 font-serif text-[clamp(1.6rem,2.6vw,2.1rem)] font-light text-ink">
                     {p.title}
                     <ArrowUpRight
-                      size={26}
-                      className="translate-y-1 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"
+                      size={24}
+                      className="text-terracotta opacity-0 transition-all duration-500 group-hover:translate-x-0.5 group-hover:opacity-100"
                     />
                   </h3>
-                  <p className="mt-3 max-w-md text-pretty text-[0.95rem] leading-relaxed text-cream-50/80">{p.blurb}</p>
+                  <p className="mt-2.5 max-w-md text-pretty text-[0.95rem] leading-relaxed text-ink/68">{p.blurb}</p>
                 </div>
               </button>
             </Reveal>
