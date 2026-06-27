@@ -22,8 +22,8 @@ export function Footer({ onHome }: { onHome: boolean }) {
 
   return (
     <footer className="relative overflow-hidden border-t border-ink/10 bg-cream-200 text-ink/70">
-      <div className="u-container relative pt-12 pb-8 md:pt-20 md:pb-10">
-        <div className="grid gap-8 md:gap-12 md:grid-cols-[1.4fr_1fr_1fr]">
+      <div className="u-container relative pt-9 pb-7 md:pt-20 md:pb-10">
+        <div className="grid gap-6 md:gap-12 md:grid-cols-[1.4fr_1fr_1fr]">
           {/* brand */}
           <div>
             <div className="flex items-center gap-3">
@@ -32,15 +32,15 @@ export function Footer({ onHome }: { onHome: boolean }) {
               </span>
               <span className="font-serif text-2xl text-ink">Lou Projects</span>
             </div>
-            <p className="mt-5 max-w-sm text-pretty text-[0.95rem] leading-relaxed text-ink/65">
+            <p className="mt-5 hidden max-w-sm text-pretty text-[0.95rem] leading-relaxed text-ink/65 md:block">
               {brand.blurb}
             </p>
-            <div className="mt-6 flex gap-3">
+            <div className="mt-4 flex gap-3 md:mt-6">
               <a
                 href={brand.instagram}
                 target="_blank"
                 rel="noreferrer"
-                className="grid h-10 w-10 place-items-center rounded-full border border-ink/20 transition-colors hover:bg-ink hover:text-cream-50"
+                className="grid h-9 w-9 place-items-center rounded-full border border-ink/20 transition-colors hover:bg-ink hover:text-cream-50 md:h-10 md:w-10"
                 aria-label="Lou Projects on Instagram"
               >
                 <Instagram size={17} />
@@ -49,7 +49,7 @@ export function Footer({ onHome }: { onHome: boolean }) {
                 href={brand.facebook}
                 target="_blank"
                 rel="noreferrer"
-                className="grid h-10 w-10 place-items-center rounded-full border border-ink/20 transition-colors hover:bg-ink hover:text-cream-50"
+                className="grid h-9 w-9 place-items-center rounded-full border border-ink/20 transition-colors hover:bg-ink hover:text-cream-50 md:h-10 md:w-10"
                 aria-label="Lou Projects on Facebook"
               >
                 <Facebook size={17} />
@@ -90,7 +90,7 @@ export function Footer({ onHome }: { onHome: boolean }) {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-ink/12 pt-6 text-[0.8rem] text-ink/55 md:mt-16 md:flex-row md:items-center md:pt-7">
+        <div className="mt-7 flex flex-col items-start justify-between gap-2 border-t border-ink/12 pt-5 text-[0.78rem] text-ink/55 md:mt-16 md:gap-3 md:pt-7 md:text-[0.8rem] md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} Lou Projects · Sustainable home builders, Central Coast NSW</p>
           <p>
             Website by{' '}

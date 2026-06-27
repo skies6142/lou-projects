@@ -43,8 +43,7 @@ export const intro = {
   statement:
     'We’re an award-winning team on the Central Coast of New South Wales, with a specialism in both high-end architectural builds and pre-designed sustainable homes.',
   body: [
-    'If you ask us why we started Lou Projects, the answer is simple — we want to build better. Our mission is to redefine the industry by prioritising high-quality, high-performing eco homes that not only look the part, but are healthy and energy-efficient too.',
-    'It’s not just about the end result; we’re committed to making the entire building process hassle-free for everyone involved — especially you, the homeowner. We work closely with designers, engineers, contractors and suppliers to ensure a smooth journey from the first sketch to the finishing touches.',
+    'We started Lou Projects to build better — high-quality, high-performing eco homes that look the part and are healthy, energy-efficient and built to last.',
   ],
 }
 
