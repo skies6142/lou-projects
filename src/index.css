@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --cream: #f1e9d6;
+    --ink: #23241b;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+    font-feature-settings: 'kern', 'liga', 'calt';
+  }
+
+  ::selection {
+    background: #7c3d1e;
+    color: #f6f0e2;
+  }
+
+  /* keyboard focus indicator (we suppress default outlines on custom controls) */
+  :focus-visible {
+    outline: 2px solid #7c3d1e;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* thin, refined scrollbar to match the editorial tone */
+  ::-webkit-scrollbar {
+    width: 11px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #e6dac0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #a8946a;
+    border: 3px solid #e6dac0;
+    border-radius: 999px;
+  }
+}
+
+@layer components {
+  /* wide-tracked small-caps eyebrow — the editorial/architectural voice */
+  .eyebrow {
+    @apply font-sans text-[0.72rem] font-semibold uppercase tracking-eyebrow;
+  }
+
+  .u-container {
+    @apply mx-auto w-full max-w-[1280px] px-6 md:px-10 lg:px-14;
+  }
+
+  /* hairline rule used to mark key text, à la the inspo brief */
+  .rule {
+    @apply h-px w-full bg-ink/15;
+  }
+
+  /* ghost / outline button — single calm CTA */
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-full border px-6 py-3 text-[0.78rem] font-semibold uppercase tracking-[0.16em] transition-colors duration-300;
+  }
+
+  .btn-solid {
+    @apply inline-flex items-center gap-2 rounded-full bg-terracotta px-6 py-3 text-[0.78rem] font-semibold uppercase tracking-[0.16em] text-cream-50 transition-colors duration-300 hover:bg-terracotta-600;
+  }
+
+  .link-underline {
+    @apply relative inline-block;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  /* subtle paper grain overlay */
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  }
+}
