@@ -93,14 +93,15 @@ export function ProjectDetail({ slug }: { slug: string }) {
               ))}
             </div>
           )}
-          <p className="mt-7 max-w-4xl text-balance font-serif text-[clamp(1.5rem,2.7vw,2.1rem)] font-light leading-[1.4] text-ink">
+          <p className="mt-7 max-w-4xl text-balance font-serif text-[clamp(1.4rem,2.5vw,1.95rem)] font-light leading-[1.42] text-ink">
             {project.synopsis[0]}
           </p>
         </Reveal>
 
         {project.synopsis.length > 1 && (
           <Reveal delay={0.06}>
-            <div className="mt-10 gap-x-14 [&>p]:mb-5 [&>p]:break-inside-avoid [&>p]:text-[1.02rem] [&>p]:leading-[1.8] [&>p]:text-ink/76 md:columns-2">
+            <div className="mt-12 h-px max-w-4xl bg-terracotta/25" />
+            <div className="mt-10 gap-x-16 [&>p]:mb-5 [&>p]:break-inside-avoid [&>p]:text-[1.02rem] [&>p]:leading-[1.8] [&>p]:text-ink/76 [&>p:first-child]:first-letter:float-left [&>p:first-child]:first-letter:mr-3 [&>p:first-child]:first-letter:mt-1.5 [&>p:first-child]:first-letter:font-serif [&>p:first-child]:first-letter:text-[3.4rem] [&>p:first-child]:first-letter:font-light [&>p:first-child]:first-letter:leading-[0.7] [&>p:first-child]:first-letter:text-terracotta md:columns-2">
               {project.synopsis.slice(1).map((para, idx) => (
                 <p key={idx}>{para}</p>
               ))}

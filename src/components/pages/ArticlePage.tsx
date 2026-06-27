@@ -56,21 +56,21 @@ export function ArticlePage({ slug }: { slug: string }) {
         </div>
       )}
 
-      {/* body */}
+      {/* body — magazine two-column flow with full-width headings (uses the width, less scrolling) */}
       <article className="u-container py-16 md:py-20">
-        <div className="mx-auto max-w-[68ch]">
-          {article.body.map((b, i) =>
-            b.t === 'h' ? (
-              <Reveal key={i}>
-                <h2 className="mt-12 font-serif text-[clamp(1.4rem,2.4vw,1.9rem)] font-light leading-snug text-ink first:mt-0">{b.v}</h2>
-              </Reveal>
-            ) : (
-              <Reveal key={i}>
-                <p className="mt-5 text-[1.06rem] leading-[1.85] text-ink/78">{b.v}</p>
-              </Reveal>
-            )
-          )}
-        </div>
+        <Reveal>
+          <div className="mx-auto max-w-5xl gap-x-16 md:columns-2 [&>h2]:[column-span:all] [&>p]:break-inside-avoid">
+            {article.body.map((b, i) =>
+              b.t === 'h' ? (
+                <h2 key={i} className="mb-3 mt-12 font-serif text-[clamp(1.4rem,2.2vw,1.8rem)] font-light leading-snug text-ink first:mt-0">
+                  {b.v}
+                </h2>
+              ) : (
+                <p key={i} className="mb-5 text-[1.02rem] leading-[1.8] text-ink/78">{b.v}</p>
+              )
+            )}
+          </div>
+        </Reveal>
       </article>
 
       {/* more from the hub */}

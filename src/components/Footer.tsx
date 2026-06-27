@@ -16,7 +16,7 @@ export function Footer({ onHome }: { onHome: boolean }) {
   }
 
   return (
-    <footer className="relative overflow-hidden border-t-[3px] border-terracotta bg-olive text-cream-50/80">
+    <footer className="relative overflow-hidden bg-olive text-cream-50/80">
       <div className="u-container relative pt-20 pb-10">
         <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr]">
           {/* brand */}

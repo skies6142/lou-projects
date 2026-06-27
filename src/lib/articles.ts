@@ -7,12 +7,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Award-winning Charlton House: double recognition at 2025 MBA & HIA awards",
     "hero": "/img/articles/education-charlton-house-award-winning-renovation.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "We’re proud to announce that Charlton House has received recognition at the 2025 MBA Newcastle Excellence in Building Awards, as well as the HIA Hunter Housing and Kitchen & Bathro",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "We’re proud to announce that Charlton House has received recognition at the 2025 MBA Newcastle Excellence in Building Awards, as well as the HIA Hunter Housing and Kitchen & Bathroom Awards, taking out the Renovation/Addition category at each award ceremony. To be recognised by two of the industry’s leading bodies is an achievement we’re truly proud of."
@@ -72,12 +68,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Why is small business so admin heavy?",
     "hero": "/img/articles/education-why-is-small-business-so-admin-heavy.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "At Lou Projects, like most other small businesses and builders, we find ourselves amid an ever-evolving landscape of construction regulations. From updates in the National Construc",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "At Lou Projects, like most other small businesses and builders, we find ourselves amid an ever-evolving landscape of construction regulations. From updates in the National Construction Code (NCC 2022) to new sustainability measures, changes in Work Health & Safety regulations, and taxation reforms; each reform intention is good in theory, but it continues to burden small businesses with more and more admin."
@@ -129,12 +121,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "What is a healthy home?",
     "hero": "/img/articles/education-what-is-a-healthy-home.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "At Lou Projects, we use the term ‘healthy home’ quite a lot. So what do we mean when we say our homes are healthy?",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "At Lou Projects, we use the term ‘healthy home’ quite a lot. So what do we mean when we say our homes are healthy?"
@@ -238,12 +226,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Designing your home: when should you engage a builder?",
     "hero": "/img/articles/education-designing-your-home-when-should-you-engage-a-builder.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "We believe the current model for finding the right builder is broken. When designing your home, you’re told you should shop around for 3-4 builders, send them some documents, and h",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "We believe the current model for finding the right builder is broken. When designing your home, you’re told you should shop around for 3-4 builders, send them some documents, and hopefully they all quote the same thing? You get the quotes back and you’re expected to understand all the jargon – and that’s if it’s itemised and detailed! But most aren’t. So you’re meant to interpret this information and fingers crossed everything is covered? The frustrating thing about this model is that a lot of clients just look at the bottom line, sometimes basing their decision purely on price, but that still doesn’t reflect that what the builder has quoted for is what you’re expecting."
@@ -283,12 +267,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "A lesson from your sustainable builder: the cost of building wraps",
     "hero": "/img/articles/education-a-lesson-from-your-sustainable-builder-the-cost-of-building-wraps.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "This is inspired by a recent post we saw from Carland Constructions talking about what it means to be a sustainable builder. We’ve spoken about what sustainability means to us in a",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "This is inspired by a recent post we saw from Carland Constructions talking about what it means to be a sustainable builder. We’ve spoken about what sustainability means to us in a previous post, and we agree with the key point raised by Carland Constructions here – the main focus should be building a house to last – “if a building doesn’t last, it doesn’t matter”."
@@ -324,12 +304,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "HRV: what is it and why should you have one?",
     "hero": "/img/articles/education-hrv-what-is-it-and-why-should-you-have-one.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "Proper ventilation is a crucial aspect of maintaining a healthy and functional home. Ventilation should allow dry, fresh air to enter your home while getting rid of moist, stale ai",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "Proper ventilation is a crucial aspect of maintaining a healthy and functional home. Ventilation should allow dry, fresh air to enter your home while getting rid of moist, stale air – which builds up in your home from bodies, cooking, showers etc. To achieve effective ventilation inside your home, the use of a ‘Heat Recovery Ventilation’ system, is highly recommended."
@@ -405,12 +381,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Ahara House wins sustainability award",
     "hero": "/img/articles/education-ahara-house-wins-sustainability-award.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "Here at Lou Projects we specialise in building energy efficient, sustainable, functional and comfortable homes. We’d like to thank the Master Builders Association for recognising t",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "Here at Lou Projects we specialise in building energy efficient, sustainable, functional and comfortable homes. We’d like to thank the Master Builders Association for recognising this, and awarding us the winner of the ‘Energy Efficiency and Environmental Sustainability’ category in the 2023 Newcastle Excellence in Building Awards."
@@ -458,12 +430,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "DA vs CDC: a consideration when building your home",
     "hero": "/img/articles/education-da-vs-cdc-a-consideration-when-building-your-home.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "When you’re looking at building your new home, or planning a significant renovation, you typically have two choices for obtaining approval for your plans: the Development Applicati",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "When you’re looking at building your new home, or planning a significant renovation, you typically have two choices for obtaining approval for your plans: the Development Application (DA) or the Complying Development Certificate (CDC)."
@@ -507,12 +475,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Comparing Passiv Haus and Passive Solar Design",
     "hero": "/img/articles/education-comparing-passiv-haus-and-passive-solar-design.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "If you’re like us, and are interested in building sustainable and energy efficient homes, you may have heard the terms “Passiv Haus” and “Passive Solar Design” being thrown around.",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "If you’re like us, and are interested in building sustainable and energy efficient homes, you may have heard the terms “Passiv Haus” and “Passive Solar Design” being thrown around. Now they may sound similar, and they are in some ways, however there are some key differences between them as well, which we’ll dive deeper into today."
@@ -608,12 +572,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Lou Projects recognised as an energy efficient builder",
     "hero": "/img/articles/education-lou-projects-recognised-as-an-energy-efficient-builder.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "Here at Lou Projects we specialise in building healthy, high quality, high performing homes. We’d like to thank the Master Builders Association for recognising this, and awarding u",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "Here at Lou Projects we specialise in building healthy, high quality, high performing homes. We’d like to thank the Master Builders Association for recognising this, and awarding us the winner of the ‘Energy Efficiency and Environmental Sustainability’ category in the 2022 Newcastle Excellence in Building Awards."
@@ -645,12 +605,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Let’s talk about sustainable window frames",
     "hero": "/img/articles/education-lets-talk-about-sustainable-window-frames.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "In a previous post about single vs double vs triple glazed windows, we discussed the importance of multi-glazed windows for your sustainable home. And while having multi-glazed win",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "In a previous post about single vs double vs triple glazed windows, we discussed the importance of multi-glazed windows for your sustainable home. And while having multi-glazed windows are a great step towards improving the energy efficiency of your home, they’ll only be partially effective if you still have drafts, or poor insulation. The window frames themselves have a large bearing on the overall performance as well, so let’s take a look at your options for sustainable window frames now."
@@ -798,12 +754,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "5 tips on insulating your home to make it more energy efficient",
     "hero": "/img/articles/education-5-tips-on-insulating-your-home-to-make-it-more-energy-efficient.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "Insulation is the cornerstone of an energy efficient home. Insulation is also the most cost-effective way to improve the energy efficiency and comfort of your home.",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "Insulation is the cornerstone of an energy efficient home. Insulation is also the most cost-effective way to improve the energy efficiency and comfort of your home."
@@ -883,12 +835,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Choosing the right window glazing for your energy efficient home",
     "hero": "/img/articles/education-choosing-the-right-window-glazing-for-your-energy-efficient-home.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "As sustainable home builders, we cannot emphasise enough that windows are very important to consider when designing or renovating your energy efficient home. They connect the insid",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "As sustainable home builders, we cannot emphasise enough that windows are very important to consider when designing or renovating your energy efficient home. They connect the inside with the outside and bring in natural beauty and light, but they also play a big role in the energy efficiency of your home, as they can be a big source of unwanted heat gain and loss."
@@ -1000,12 +948,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Incorporating nature into your sustainable home",
     "hero": "/img/articles/education-incorporating-nature-into-your-sustainabale-home.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "The grass is greener on the other side, or so the saying goes, so why do we all want that green grass so bad anyway? Maybe it’s a natural human instinct, we know that green grass i",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "h",
         "v": "WHY WE LOVE INCORPORATING NATURE INTO SUSTAINABLE HOMES"
@@ -1029,12 +973,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Life’s a breeze: how to naturally cool & heat your home",
     "hero": "/img/articles/education-lifes-a-breeze-how-to-naturally-cool-heat-your-home.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "When looking for efficient ways to cool or heat our homes, why is it that so many people jump straight to the latest in air conditioning systems? There are so many alternatives tha",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "When looking for efficient ways to cool or heat our homes, why is it that so many people jump straight to the latest in air conditioning systems? There are so many alternatives that need not add to your electricity bill or your carbon footprint. These days, passive house designs can play a vital role in minimising and even eliminating the use of electricity for heating and cooling. Whether you are looking to renovate an existing dwelling or build from scratch, there are numerous ways to enhance your home’s energy efficiency. Improving the movement of natural air throughout the home can elevate thermal comfort and decrease the need for conventional cooling methods."
@@ -1114,12 +1054,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Waste management for a sustainable future",
     "hero": "/img/articles/education-waste-management-for-a-sustainable-future.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "In this article, we dive deeper into how we can better our building practices when it comes to construction and waste management. Building sustainable homes don’t only the design o",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "In this article, we dive deeper into how we can better our building practices when it comes to construction and waste management. Building sustainable homes don’t only the design of the house and the choice of materials, but also apply to future proof building practices. At Lou Projects, we teach our team how to manage waste on-site and we always keep an eye out on how to do it better."
@@ -1175,12 +1111,8 @@ export const articles: Article[] = [
     "category": "education",
     "title": "Hempcrete: revolutionising sustainable building in Australia",
     "hero": "/img/articles/education-hempcrete-revolutionising-sustainable-building-in-australia.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "The Australian construction industry is not known for its focus on reducing carbon emissions. If anything, we are often the target of blame for the negative trajectory of our clima",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "The Australian construction industry is not known for its focus on reducing carbon emissions. If anything, we are often the target of blame for the negative trajectory of our climate. However, there are hopes that hemp could help to revolutionise the sustainable building industry in Australia by providing a carbon-negative alternative to traditional brick and mortar construction."
@@ -1228,12 +1160,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "Rain day allowances: the cost most clients don’t see",
     "hero": "/img/articles/andrews-notes-rain-day-allowances.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "It’s a common reaction. On paper, it can look like padding. From the outside, the assumption is simple: if it rains, just send the boys somewhere else, shuffle labour, throw up a f",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "It’s a common reaction. On paper, it can look like padding. From the outside, the assumption is simple: if it rains, just send the boys somewhere else, shuffle labour, throw up a few tarps and keep moving."
@@ -1289,12 +1217,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "What building taught me about energy, productivity, and Australia’s future",
     "hero": "/img/articles/andrews-notes-what-building-taught-me-about-energy-productivity-and-australias-future.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "While the intention was good, the deeper I looked into all the green initiatives and carbon offsetting schemes, the more I realised it’s just not as simple as it’s made out to be.",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "While the intention was good, the deeper I looked into all the green initiatives and carbon offsetting schemes, the more I realised it’s just not as simple as it’s made out to be."
@@ -1354,12 +1278,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "Apprentices: you’re meant to feel behind… that’s the advantage",
     "hero": "/img/articles/andrews-notes-apprentices-feeling-behind-is-an-advantage.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "They show up, they care, they ask questions, and they get stuck into the job, even when it’s hard. Honestly, that’s all I’m asking for.",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "They show up, they care, they ask questions, and they get stuck into the job, even when it’s hard. Honestly, that’s all I’m asking for."
@@ -1435,12 +1355,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "Why builders should charge for quotes: the hidden value of expert consultation",
     "hero": "/img/articles/andrews-notes-why-builders-should-charge-for-quotes.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "Let’s be real: if a client isn’t willing to pay a consulting or quotation fee, that’s probably a red flag already.",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "Let’s be real: if a client isn’t willing to pay a consulting or quotation fee, that’s probably a red flag already."
@@ -1592,12 +1508,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "Understanding variations in construction: and thoughts on how to handle them",
     "hero": "/img/articles/andrews-notes-understanding-variations-in-construction-and-thoughts-on-how-to-handle-them.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "Variations are a hot topic for us right now, we seem to be handling a lot of them. Whether you’re a homeowner worried about unexpected costs, a subcontractor wanting to ensure you ",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "Variations are a hot topic for us right now, we seem to be handling a lot of them. Whether you’re a homeowner worried about unexpected costs, a subcontractor wanting to ensure you get paid, or a builder aiming to improve processes, this is something you need to understand."
@@ -1713,12 +1625,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "Looking back: a reflection on 2024",
     "hero": "/img/articles/andrews-notes-looking-back-a-reflection-on-2024.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "As we step into a brand-new year, it’s a perfect moment to look back on 2024 – a year filled with milestones, challenges, and countless lessons that shaped our journey. In this rev",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "As we step into a brand-new year, it’s a perfect moment to look back on 2024 – a year filled with milestones, challenges, and countless lessons that shaped our journey. In this review, we’ll highlight some key takeaways, celebrate our accomplishments, and share what the upcoming year has in store for us."
@@ -1806,12 +1714,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "The entitlement trap",
     "hero": "/img/articles/andrews-notes-the-entitlement-trap.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "This topic has become something I’m really passionate about, based on the experience I’ve gained in recent years.",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "h",
         "v": "Attitude and hard work are the only way to succeed in carpentry"
@@ -1883,12 +1787,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "Solar: a love-hate relationship",
     "hero": "/img/articles/andrews-notes-solar-a-love-hate-relationship.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "It’s not the perfect product; it comes with its environmental flaws, especially related to the manufacturing process, which involves mining and processing raw materials like silico",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "It’s not the perfect product; it comes with its environmental flaws, especially related to the manufacturing process, which involves mining and processing raw materials like silicon, silver, and rare earth metals. Additionally, many solar panels are manufactured in countries with less stringent environmental regulations."
@@ -1956,12 +1856,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "A practical approach to climate change in the building industry",
     "hero": "/img/articles/andrews-notes-a-practical-approach-to-climate-change-in-the-building-industry.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "Climate change. A touchy subject I know… some think it’s the end of humanity, and some think it’s a hoax. I’d rather take a more practical approach.",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "Climate change. A touchy subject I know… some think it’s the end of humanity, and some think it’s a hoax. I’d rather take a more practical approach."
@@ -2001,12 +1897,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "Navigating burnout: rediscovering boundaries & balance",
     "hero": "/img/articles/andrews-notes-navigating-burnout-rediscovering-boundaries-balance.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "Here it is. Burnout. I’ve done it again, I’ve burnt myself out.",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "Here it is. Burnout. I’ve done it again, I’ve burnt myself out."
@@ -2034,12 +1926,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "That’s a wrap… 2023 a year in review",
     "hero": "/img/articles/andrews-notes-thats-a-wrap-2023-a-year-in-review.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "As we say goodbye to the past year, let’s pause for a moment to reflect on the highs, lows, and the valuable lessons we’ve picked up along the way in 2023. In this article, we’ll s",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "As we say goodbye to the past year, let’s pause for a moment to reflect on the highs, lows, and the valuable lessons we’ve picked up along the way in 2023. In this article, we’ll share our thoughts on what we’ve learned, celebrate a few achievements, and explore what the upcoming year has in store for us."
@@ -2159,12 +2047,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "What does it mean to be a sustainable builder?",
     "hero": "/img/articles/andrews-notes-what-does-it-mean-to-be-a-sustainable-builder.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "In our early days of starting Lou Projects, we thought being a sustainable builder meant recycling materials and reducing landfill. Yes this is still important to us, but ultimatel",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "In our early days of starting Lou Projects, we thought being a sustainable builder meant recycling materials and reducing landfill. Yes this is still important to us, but ultimately there’s a bigger picture here."
@@ -2208,12 +2092,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "6 lessons from a year in review",
     "hero": "/img/articles/andrews-notes-6-lessons-from-a-year-in-review.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "We’ve recently wrapped up a couple of major projects, and are in the beginning stages of a couple more. We’re getting ready to ramp it up for the rest of the year, and are already ",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "We’ve recently wrapped up a couple of major projects, and are in the beginning stages of a couple more. We’re getting ready to ramp it up for the rest of the year, and are already looking to the year ahead. A big part of planning for growth is looking back and consciously reviewing how things went."
@@ -2285,12 +2165,8 @@ export const articles: Article[] = [
     "category": "andrews-notes",
     "title": "Cheers to more healthy homes in 2020!",
     "hero": null,
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "As energy and water costs increase, and with the growing community awareness of the climate changing, we need to learn more about how we can build homes to adapt to these climate c",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "h",
         "v": "What We Learned In 2019"
@@ -2382,12 +2258,8 @@ export const articles: Article[] = [
     "category": "media",
     "title": "Lou Projects featured on Build Index: getting plans and pricing right early",
     "hero": "/img/articles/media-getting-plans-pricing-right-early-build-index.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "The piece explores why the decisions made before a single trade arrives on site have the biggest influence on how a project actually runs. It’s a conversation we have with every cl",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "The piece explores why the decisions made before a single trade arrives on site have the biggest influence on how a project actually runs. It’s a conversation we have with every client, and it’s at the heart of how we work."
@@ -2491,12 +2363,8 @@ export const articles: Article[] = [
     "category": "media",
     "title": "Podcast: smarter scaling with Andrew George of Lou Projects – Part 1 | Build Insite",
     "hero": null,
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "“CLT looks simple, but behind the walls it’s incredibly complex — everything needs to be thought of 100 times.”",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "“CLT looks simple, but behind the walls it’s incredibly complex — everything needs to be thought of 100 times.”"
@@ -2616,12 +2484,8 @@ export const articles: Article[] = [
     "category": "media",
     "title": "The Lou Projects approach: a balance of performance, comfort, and style",
     "hero": "/img/articles/media-lou-projects-approach-performance-comfort-style.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "At Lou Projects, we believe high performance and beautiful design don’t have to be mutually exclusive. Our builds balance aesthetics with substance—clean lines, refined details, an",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "At Lou Projects, we believe high performance and beautiful design don’t have to be mutually exclusive. Our builds balance aesthetics with substance—clean lines, refined details, and carefully considered materials—without compromising on comfort or efficiency."
@@ -2673,12 +2537,8 @@ export const articles: Article[] = [
     "category": "media",
     "title": "Building with integrity: a conversation with Andrew",
     "hero": "/img/articles/media-andrew-george-on-building-with-purpose.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "In this recent video interview, Lou Projects founder Andrew George sits down to share what drives him – both as a builder and as a human being. Filmed on location and packed with p",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "p",
         "v": "In this recent video interview, Lou Projects founder Andrew George sits down to share what drives him – both as a builder and as a human being. Filmed on location and packed with practical insights, this conversation explores the heart of Lou Projects: building high-performance homes that stand the test of time, all while staying grounded in integrity, family, and care for the Central Coast community."
@@ -2734,12 +2594,8 @@ export const articles: Article[] = [
     "category": "media",
     "title": "Andrew George in Central Coast Life & Style",
     "hero": "/img/articles/media-andrew-george-feature-central-coast-life-style.jpg",
-    "excerpt": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube",
+    "excerpt": "We’re incredibly proud to share that our founder and Managing Director, Andrew George, has been featured in the latest issue of Central Coast Life & Style magazine – and it’s an ab",
     "body": [
-      {
-        "t": "p",
-        "v": "Knowledge HubFAQs Blog Andrew’s Notes Media YouTube"
-      },
       {
         "t": "h",
         "v": "A Local Leader with Global Vision"

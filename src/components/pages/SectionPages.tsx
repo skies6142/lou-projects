@@ -46,10 +46,7 @@ export function WhatWeDoPage() {
           <p className="max-w-xl text-pretty font-serif text-[clamp(1.4rem,2.4vw,2rem)] font-light leading-snug text-cream-50">
             Better building principles, better project management — documented, communicated, and delivered on time.
           </p>
-          <button
-            onClick={() => navigate('/projects')}
-            className="btn-ghost shrink-0 border-cream-50/45 text-cream-50 hover:bg-cream-50 hover:text-olive-deep"
-          >
+          <button onClick={() => navigate('/projects')} className="btn-solid shrink-0">
             View completed projects
           </button>
         </div>
