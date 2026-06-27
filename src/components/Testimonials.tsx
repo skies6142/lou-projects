@@ -43,7 +43,7 @@ export function Testimonials() {
           <Reveal>
             <button
               onClick={() => project && navigate(`/project/${t.slug}`)}
-              className="group relative block aspect-[4/5] w-full overflow-hidden rounded-[6px] bg-olive sm:aspect-[5/4] md:aspect-[4/5]"
+              className="group relative block aspect-[4/5] w-full overflow-hidden rounded-[6px] bg-olive text-left sm:aspect-[5/4] md:aspect-[4/5]"
             >
               <AnimatePresence initial={false} mode="popLayout">
                 <motion.img
