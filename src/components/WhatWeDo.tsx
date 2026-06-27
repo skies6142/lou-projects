@@ -37,7 +37,7 @@ export function WhatWeDo() {
             {whatWeDo.pillars.map((p, i) => (
               <Reveal key={p.n} delay={i * 0.08}>
                 <div className="flex gap-6 py-7 first:pt-0">
-                  <span className="font-serif text-2xl text-clay-light/90">{p.n}</span>
+                  <span className="font-serif text-2xl text-terracotta-400">{p.n}</span>
                   <div>
                     <h3 className="font-serif text-2xl font-light text-cream-50">{p.title}</h3>
                     <p className="mt-2.5 text-pretty text-[0.97rem] leading-relaxed text-cream-50/72">{p.body}</p>

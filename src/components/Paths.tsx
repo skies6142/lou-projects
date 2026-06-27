@@ -37,7 +37,7 @@ export function Paths() {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-olive-deep/90 via-olive-deep/35 to-olive-deep/10" />
                 <div className="absolute inset-0 flex flex-col justify-end p-7 md:p-9">
-                  <span className="font-serif text-base text-cream-50/70">{p.index}</span>
+                  <span className="font-serif text-base text-terracotta-400">{p.index}</span>
                   <h3 className="mt-1 flex items-center gap-2 font-serif text-[clamp(1.7rem,3vw,2.4rem)] font-light text-cream-50">
                     {p.title}
                     <ArrowUpRight

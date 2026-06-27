@@ -33,7 +33,7 @@ export function Ethos() {
             {ethos.values.map((v, i) => (
               <Reveal key={v.title} delay={i * 0.05}>
                 <div className="h-full bg-cream-50 p-7">
-                  <span className="eyebrow text-clay">{String(i + 1).padStart(2, '0')}</span>
+                  <span className="eyebrow text-terracotta">{String(i + 1).padStart(2, '0')}</span>
                   <h3 className="mt-3 font-serif text-xl text-ink">{v.title}</h3>
                   <p className="mt-2.5 text-[0.92rem] leading-relaxed text-ink/65">{v.body}</p>
                 </div>

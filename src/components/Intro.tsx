@@ -17,7 +17,7 @@ export function Intro() {
           </Reveal>
           <Reveal delay={0.12}>
             {/* hairline rule sits flush with the top of the heading, aligning the columns */}
-            <div className="rule mb-6 bg-clay/50" />
+            <div className="rule mb-6 bg-terracotta/35" />
             <div className="space-y-5 text-[1rem] leading-relaxed text-ink/72">
               {intro.body.map((p, i) => (
                 <p key={i}>{p}</p>

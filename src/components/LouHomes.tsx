@@ -26,7 +26,7 @@ export function LouHomes() {
             <div className="mt-8 grid gap-x-8 gap-y-9 sm:grid-cols-2 lg:grid-cols-4">
               {louHomesProcess.steps.map((s) => (
                 <div key={s.n} className="border-t border-cream-50/20 pt-4">
-                  <span className="font-serif text-2xl text-clay-light/80">{s.n}</span>
+                  <span className="font-serif text-2xl text-terracotta-400">{s.n}</span>
                   <h3 className="mt-1 font-serif text-lg text-cream-50">{s.title}</h3>
                   <p className="mt-1.5 text-[0.85rem] leading-relaxed text-cream-50/70">{s.body}</p>
                 </div>
