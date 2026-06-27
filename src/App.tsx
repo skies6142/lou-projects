@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useRoute } from './lib/router'
+import { initSmoothScroll, scrollTop, scrollToEl } from './lib/smoothScroll'
 import { Nav } from './components/Nav'
 import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
@@ -20,7 +21,10 @@ function Home() {
   useEffect(() => {
     const id = window.location.hash
     if (id && !id.startsWith('#/')) {
-      setTimeout(() => document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' }), 80)
+      setTimeout(() => {
+        const el = document.querySelector(id)
+        if (el) scrollToEl(el)
+      }, 80)
     }
   }, [])
   return (
@@ -51,6 +55,9 @@ export default function App() {
   const onHome = route.name === 'home'
   const PageComp = route.name === 'page' ? PAGES[route.page] : null
 
+  // Boot Lenis smooth-scroll once (skips itself for reduced-motion users).
+  useEffect(() => initSmoothScroll(), [])
+
   // Header adapts to the page: transparent→olive over dark hero pages (home/project),
   // a light cream bar on dark-background pages (What We Do / Contact), olive on cream pages.
   const darkTopPage = route.name === 'page' && (route.page === 'what-we-do' || route.page === 'contact')
@@ -68,8 +75,8 @@ export default function App() {
           ? `page:${route.page}`
           : route.name
   useEffect(() => {
-    window.scrollTo(0, 0)
-    const id = requestAnimationFrame(() => window.scrollTo(0, 0)) // counter any post-mount layout shift
+    scrollTop()
+    const id = requestAnimationFrame(() => scrollTop()) // counter any post-mount layout shift
     return () => cancelAnimationFrame(id)
   }, [routeKey])
 

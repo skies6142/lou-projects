@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { ChevronLeft, ChevronRight, Maximize2, X } from 'lucide-react'
+import { pauseScroll, resumeScroll } from '../lib/smoothScroll'
 
 // User-controlled project slideshow: big image + arrows + counter + thumbnail rail.
 // Click the image to enlarge; arrows sit at the bottom in the enlarged viewer.
@@ -31,13 +32,15 @@ export function Slideshow({ images, name }: { images: string[]; name: string }) 
     activeThumb.current?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })
   }, [i])
 
-  // lock page scrolling while the enlarged viewer is open
+  // lock page scrolling while the enlarged viewer is open (native overflow + Lenis pause)
   useEffect(() => {
     if (!full) return
     const prev = document.body.style.overflow
     document.body.style.overflow = 'hidden'
+    pauseScroll()
     return () => {
       document.body.style.overflow = prev
+      resumeScroll()
     }
   }, [full])
 

@@ -1,6 +1,7 @@
 import { Instagram, Facebook, ArrowUpRight } from 'lucide-react'
 import { brand, nav } from '../lib/content'
 import { navigate } from '../lib/router'
+import { scrollToEl } from '../lib/smoothScroll'
 
 // Deep-toned multi-column footer, anchored by a giant ghost-outline wordmark.
 // inspo: deep footer w/ giant ghost word + credentials (accomholidays #31, avocaarchitectural #48)
@@ -8,10 +9,14 @@ export function Footer({ onHome }: { onHome: boolean }) {
   const go = (href: string) => {
     if (href.startsWith('#/')) navigate(href.slice(1))
     else if (href.startsWith('#')) {
+      const toAnchor = () => {
+        const el = document.querySelector(href)
+        if (el) scrollToEl(el)
+      }
       if (!onHome) {
         navigate('/')
-        setTimeout(() => document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' }), 60)
-      } else document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })
+        setTimeout(toAnchor, 60)
+      } else toAnchor()
     }
   }
 
