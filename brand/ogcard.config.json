@@ -1,0 +1,21 @@
+{
+  "name": "Lou Projects",
+  "monogram": "/Users/jordan/Downloads/Lou Projects/public/img/brand/monogram.png",
+  "monogramRadius": 18,
+  "wordmarkFont": "Newsreader",
+  "wordmarkWeight": 400,
+  "headlineFont": "Newsreader",
+  "headlineWeight": 400,
+  "headlineSize": 74,
+  "headlineLines": ["We build **better**", "**homes.**"],
+  "subline": "Sustainable home builders · Central Coast, NSW",
+  "googleFonts": "https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500&family=Hanken+Grotesk:wght@400;500;600&display=swap",
+  "bgFrom": "#2F3222",
+  "bgTo": "#23241B",
+  "glow": "rgba(196,178,137,.30)",
+  "glow2": "rgba(124,61,30,.20)",
+  "fg": "#F1E9D6",
+  "accent": "#C4B289",
+  "sublineColor": "rgba(241,233,214,.72)",
+  "out": "/Users/jordan/Downloads/Lou Projects/public/og-image.png"
+}
